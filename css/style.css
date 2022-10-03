@@ -2,6 +2,12 @@
   margin: 0%;
   padding: 0%;
 }
+
+.site-container {
+  width: 1115px;
+  margin: 0 auto;
+}
+
 .navigation {
   position: absolute;
   top: 4.6%;
@@ -16,7 +22,7 @@
 
 .main-navigation {
   color: #fff;
-  /*display: none;*/
+  display: none;
   position: fixed;
   height: 100%;
   width: 100%;
@@ -65,13 +71,13 @@
 .bar4 {
   width: 30px;
   height: 3px;
-  background-color: #fff;
+  background-color: rgb(223, 13, 13);
   margin: 6px 0;
   transition: 0.4s;
 }
 
 .change .bar1 {
-  transform: rotate(-45deg) translate(-6pc, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
   background-color: #fff;
 }
 
@@ -81,6 +87,6 @@
 }
 
 .change .bar3 {
-  transform: rotate(45deg) translate(-6pc, -7px);
+  transform: rotate(45deg) translate(-6px, -7px);
   background-color: #fff;
 }
