@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navigation {
+  position: absolute;
+  top: 4.6%;
+  width: 100%;
+  z-index: 2;
+}
+.navigation-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-navigation {
+  color: #fff;
+  /*display: none;*/
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  opacity: 0.9;
+}
+
+.main-navigation .main-navigation-ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3%;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  background-color: rgb(154, 92, 170);
+}
+
+.main-navigation .main-navigation-ul li {
+  margin-bottom: 20%;
+  list-style: none;
+}
+
+.main-navigation .main-navigation-ul a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+.main-navigation .main-navigation-ul a:hover {
+  color: rgb(235, 119, 119);
+}
+.burguer-container {
+  cursor: pointer;
+  z-index: 3;
+}
+
+.bar1,
+.bar2,
+.bar3,
+.bar4 {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-6pc, 6px);
+  background-color: #fff;
+}
+
+.change .bar2 {
+  opacity: 0;
+  background-color: #fff;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-6pc, -7px);
+  background-color: #fff;
+}
