@@ -8,6 +8,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1250px) {
+  .site-container {
+    width: 90%;
+  }
+}
+
 .navigation {
   position: absolute;
   top: 4.6%;
@@ -89,4 +95,68 @@
 .change .bar3 {
   transform: rotate(45deg) translate(-6px, -7px);
   background-color: #fff;
+}
+
+.section-top-banner {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("https://www.dlojavirtual.com/wp-content/uploads/2015/09/Como_vender_-artesanato.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.section-top-banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+.section-top-banner .site-container {
+  position: relative;
+  z-index: 1;
+}
+
+.top-banner__inner {
+  display: flex;
+  align-items: center;
+}
+
+.top-banner__inner .top-banner__text {
+  margin-left: 54px;
+}
+
+.top-banner__inner .top-banner__h2 {
+  font-size: 74px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+.top-banner__inner .top-banner__image {
+  font-size: 0;
+}
+
+.image {
+  max-width: auto;
+  max-height: 760px;
+}
+
+.a-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #c18f59;
+  border: 1px solid #fff;
+  transition: 0.3s ease;
+}
+
+.a-button:hover,
+a-button:focus {
+  color: #777;
 }
