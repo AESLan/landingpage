@@ -134,10 +134,22 @@
 .top-banner__inner .top-banner__h2 {
   font-size: 74px;
   letter-spacing: 3px;
-  color: #fff;
+  color: rgb(145, 48, 145);
 }
 .top-banner__inner .top-banner__image {
   font-size: 0;
+}
+
+.top-banner__inner .top-banner__text-h2 {
+  color: aqua;
+}
+
+.top-banner__inner .top-banner__span2 {
+  color: aqua;
+}
+
+.top-banner__inner .top-banner__p {
+  color: aqua;
 }
 
 .image {
@@ -159,4 +171,28 @@
 .a-button:hover,
 a-button:focus {
   color: #777;
+}
+
+.text-leiamais {
+  font-size: x-large;
+  color: #fff;
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  opacity: 0.9;
+}
+
+.text-leiamais .text-leiamais-ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3%;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  background-color: rgb(154, 92, 170);
 }
