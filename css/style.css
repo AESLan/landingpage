@@ -75,6 +75,8 @@
 .bar2,
 .bar3,
 .bar4 {
+  position: relative;
+  right: 20px;
   width: 30px;
   height: 3px;
   background-color: rgb(223, 13, 13);
@@ -149,6 +151,7 @@
 }
 
 .top-banner__inner .top-banner__p {
+  font-size: large;
   color: aqua;
 }
 
@@ -187,6 +190,7 @@ a-button:focus {
 }
 
 .text-leiamais .text-leiamais-ul {
+  list-style: none;
   position: absolute;
   top: 50%;
   left: 50%;
