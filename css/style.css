@@ -200,3 +200,30 @@ a-button:focus {
   border-radius: 7px;
   background-color: rgb(154, 92, 170);
 }
+
+.galeria {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: black;
+  opacity: 0.9;
+}
+
+.flex-galeria {
+  margin: 0;
+  padding: 0;
+  display: flexbox;
+}
+
+.flex-item {
+  height: 350px;
+  width: 200px;
+  margin: 8px;
+}
+
+.flex-item {
+  border-radius: 10px;
+}
