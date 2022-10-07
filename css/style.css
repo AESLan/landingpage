@@ -166,14 +166,14 @@
   font-size: 11px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #c18f59;
+  color: #90c159;
   border: 1px solid #fff;
   transition: 0.3s ease;
 }
 
 .a-button:hover,
 a-button:focus {
-  color: #777;
+  color: rgb(154, 92, 170);
 }
 
 .text-leiamais {
@@ -226,4 +226,17 @@ a-button:focus {
 
 .flex-item {
   border-radius: 10px;
+}
+
+.btn-sair-galeria {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(154, 92, 170);
+  border: 2px solid rgb(100, 100, 100);
+  transition: 0.3s ease;
+  background: #000;
+  opacity: 0.9;
 }
