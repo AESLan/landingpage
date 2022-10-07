@@ -212,22 +212,6 @@ a-button:focus {
   opacity: 0.9;
 }
 
-.flex-galeria {
-  margin: 0;
-  padding: 0;
-  display: flexbox;
-}
-
-.flex-item {
-  height: 350px;
-  width: 200px;
-  margin: 8px;
-}
-
-.flex-item {
-  border-radius: 10px;
-}
-
 .btn-sair-galeria {
   display: inline-block;
   padding: 10px 20px;
@@ -239,4 +223,22 @@ a-button:focus {
   transition: 0.3s ease;
   background: #000;
   opacity: 0.9;
+}
+
+.flex-item {
+  display: none;
+  border-radius: 10px;
+  height: 650px;
+  width: 500px;
+  margin: 15px;
+  margin-left: 450px;
+}
+
+.btn-left {
+  margin-left: 650px;
+  width: 50px;
+}
+
+.btn-right {
+  width: 50px;
 }
