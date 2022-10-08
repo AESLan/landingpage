@@ -134,8 +134,8 @@
 }
 
 .top-banner__inner .top-banner__h2 {
-  font-size: 74px;
-  letter-spacing: 3px;
+  font-size: 104px;
+  letter-spacing: 5px;
   color: rgb(145, 48, 145);
 }
 .top-banner__inner .top-banner__image {
@@ -153,6 +153,11 @@
 .top-banner__inner .top-banner__p {
   font-size: large;
   color: aqua;
+}
+
+.top-banner__text-down {
+  font-size: 24px;
+  padding-bottom: 15px;
 }
 
 .image {
@@ -209,20 +214,7 @@ a-button:focus {
   top: 0px;
   left: 0px;
   background: black;
-  opacity: 0.9;
-}
-
-.btn-sair-galeria {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: rgb(154, 92, 170);
-  border: 2px solid rgb(100, 100, 100);
-  transition: 0.3s ease;
-  background: #000;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .flex-item {
@@ -234,11 +226,93 @@ a-button:focus {
   margin-left: 450px;
 }
 
+/*Botões*/
+
+.btn-sair-galeria {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(154, 92, 170);
+  border: 2px solid rgb(255, 255, 255);
+  background: #000;
+  opacity: 0.9;
+}
+
 .btn-left {
-  margin-left: 650px;
-  width: 50px;
+  margin-left: 40%;
+  margin-right: 15px;
+  padding: 8px 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(154, 92, 170);
+  border: 2px solid rgb(255, 255, 255);
+  background: #000;
+  opacity: 0.9;
 }
 
 .btn-right {
-  width: 50px;
+  margin-right: 15px;
+  padding: 8px 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(154, 92, 170);
+  border: 2px solid rgb(255, 255, 255);
+  transition: 0.3s ease;
+  background: #000;
+  opacity: 0.9;
+}
+
+/*Formulário Whatsapp*/
+
+.formulario {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: black;
+  opacity: 1;
+  z-index: 1;
+}
+
+.form-all {
+  margin-top: 10%;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-enviar {
+  cursor: pointer;
+  background-color: #25d366;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 48px;
+  margin-left: 25%;
+  width: 50%;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input,
+textarea {
+  padding: 16px;
+}
+
+input,
+textarea {
+  width: 50%;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  font-size: 16px;
 }

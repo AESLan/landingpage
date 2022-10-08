@@ -19,7 +19,9 @@
             </li>
             <li><a href="">Seja uma revendedora Bijuka</a></li>
             <li><a href="">Novidades</a></li>
-            <li><a href="">Contato</a></li>
+            <li>
+              <a href="#" class="btn-contato" onclick="menuFn(this)">Contato</a>
+            </li>
           </ul>
         </div>
         <div id="btnBurguer" class="burguer-container" onclick="menuFn(this)">
@@ -76,7 +78,7 @@
             </li>
           </ul>
         </div>
-        <!--Aqui vai a página a galeria-->
+        <!--Aqui vai a galeria-->
         <div class="galeria">
           <img class="flex-item" src="img/1.jpeg" />
           <img class="flex-item" src="img/2.jpeg" />
@@ -96,14 +98,44 @@
           <button
             type="submit"
             class="btn-sair-galeria"
-            onclick="menuFn
-              (this)"
+            onclick="menuFn (this)"
           >
             Sair
           </button>
         </div>
       </div>
     </section>
+    <div class="formulario">
+      <form class="form-all" action="#" method="get" onsubmit="abrirWhatsapp()">
+        <input type="text" name="nome" id="nome" placeholder="Nome" required />
+        <br />
+        <input
+          type="tel"
+          name="telefone"
+          id="telefone"
+          placeholder="Telefone"
+          required
+        />
+        <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="E-mail"
+          required
+        />
+        <br />
+        <textarea
+          name="msg"
+          id="msg"
+          placeholder="Mensagem"
+          rows="5"
+          required
+        ></textarea>
+        <br />
+        <button type="submit" class="btn-enviar">Enviar Whatsapp</button>
+      </form>
+    </div>
 
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/script.js"></script>
