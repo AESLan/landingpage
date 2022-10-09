@@ -229,6 +229,7 @@ a-button:focus {
 /*Botões*/
 
 .btn-sair-galeria {
+  display: flexbox;
   padding: 10px 20px;
   font-size: 14px;
   text-transform: uppercase;
@@ -240,6 +241,7 @@ a-button:focus {
 }
 
 .btn-left {
+  display: flexbox;
   margin-left: 40%;
   margin-right: 15px;
   padding: 8px 25px;
@@ -253,6 +255,7 @@ a-button:focus {
 }
 
 .btn-right {
+  display: flexbox;
   margin-right: 15px;
   padding: 8px 25px;
   font-size: 14px;
