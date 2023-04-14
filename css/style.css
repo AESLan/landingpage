@@ -331,8 +331,10 @@ textarea {
   }
 
   .image{
-    max-width: 300px;
-    margin-left: -35%;
+    width: 50vh;
+    height: 100vh;
+    margin-left: -38%;
+
   }
 
   .section-top-banner{
