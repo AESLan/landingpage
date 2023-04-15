@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0%;
   padding: 0%;
@@ -175,7 +177,12 @@
   text-decoration: none;
   color: #90c159;
   border: 1px solid #fff;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+  letter-spacing: 1px;
+  box-shadow: 0 0 10px rgb(201, 106, 42);
+  border-radius: 20px;
 }
 
 .a-button:hover,
@@ -365,6 +372,5 @@ textarea {
   .btn-right {
     padding: 10px 15px;
     margin: 0 10%;
-   
   }
 }
