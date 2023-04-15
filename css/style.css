@@ -222,10 +222,11 @@ a-button:focus {
 .flex-item {
   display: none;
   border-radius: 10px;
-  height: 650px;
-  width: 500px;
+  height: 500px;
+  width: 400px;
   margin: 15px;
   margin-left: 450px;
+  margin-top: 2%;
 }
 
 /*Botões*/
@@ -351,4 +352,19 @@ textarea {
     margin-left: 0.2rem;
   }
    
+  .flex-item {
+    display: flex;
+    position: relative;
+    margin: 6rem 1.5rem;
+    width: 80%;
+    height: 60%;
+  }
+
+  .btn-sair-galeria, 
+  .btn-left, 
+  .btn-right {
+    padding: 10px 15px;
+    margin: 0 10%;
+   
+  }
 }
