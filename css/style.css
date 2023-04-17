@@ -71,6 +71,8 @@
 .burguer-container {
   cursor: pointer;
   z-index: 3;
+  height: 50px;
+
 }
 
 .bar1,
@@ -175,19 +177,20 @@
   font-size: 11px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #90c159;
-  border: 1px solid #fff;
+  color: rgb(154, 92, 170);
   transition: 0.5s ease;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
   letter-spacing: 1px;
-  box-shadow: 0 0 10px rgb(201, 106, 42);
+  box-shadow: 0 0 10px rgb(42, 201, 103);
   border-radius: 20px;
+  background-color: #25d366;
+  
 }
 
 .a-button:hover,
 a-button:focus {
-  color: rgb(154, 92, 170);
+  color: rgb(255, 255, 255);
 }
 
 .text-leiamais {
@@ -244,10 +247,21 @@ a-button:focus {
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(154, 92, 170);
+  color: rgb(235, 233, 236);
   border: 2px solid rgb(255, 255, 255);
-  background: #000;
+  background: rgb(133, 25, 128);
   opacity: 0.9;
+  animation: slide 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 10px orange;
+  border-radius: 30px;
+}
+
+.btn-sair-galeria:hover, 
+.btn-left:hover, 
+.btn-right:hover {
+  box-shadow: none;
+  color: #fefffe;
 }
 
 .btn-left {
@@ -260,8 +274,12 @@ a-button:focus {
   text-decoration: none;
   color: rgb(154, 92, 170);
   border: 2px solid rgb(255, 255, 255);
-  background: #000;
+  background: rgb(133, 25, 128);
   opacity: 0.9;
+  animation: slide 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 10px orange;
+  border-radius: 30px;
 }
 
 .btn-right {
@@ -274,8 +292,12 @@ a-button:focus {
   color: rgb(154, 92, 170);
   border: 2px solid rgb(255, 255, 255);
   transition: 0.3s ease;
-  background: #000;
+  background: rgb(133, 25, 128);
   opacity: 0.9;
+  animation: slide 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 10px orange;
+  border-radius: 30px;
 }
 
 /*Formulário Whatsapp*/
