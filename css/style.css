@@ -186,11 +186,13 @@
   border-radius: 20px;
   background-color: #25d366;
   
+  
 }
 
 .a-button:hover,
 a-button:focus {
-  color: rgb(255, 255, 255);
+  box-shadow: none;
+  color: #fefffe;
 }
 
 .text-leiamais {
@@ -249,7 +251,7 @@ a-button:focus {
   text-decoration: none;
   color: rgb(235, 233, 236);
   border: 2px solid rgb(255, 255, 255);
-  background: rgb(133, 25, 128);
+  background: #25d366;
   opacity: 0.9;
   animation: slide 1s ease forwards;
   animation-delay: 2s;
@@ -274,7 +276,7 @@ a-button:focus {
   text-decoration: none;
   color: rgb(154, 92, 170);
   border: 2px solid rgb(255, 255, 255);
-  background: rgb(133, 25, 128);
+  background: #25d366;
   opacity: 0.9;
   animation: slide 1s ease forwards;
   animation-delay: 2s;
@@ -292,7 +294,7 @@ a-button:focus {
   color: rgb(154, 92, 170);
   border: 2px solid rgb(255, 255, 255);
   transition: 0.3s ease;
-  background: rgb(133, 25, 128);
+  background: #25d366;
   opacity: 0.9;
   animation: slide 1s ease forwards;
   animation-delay: 2s;
