@@ -182,12 +182,12 @@ html {
   font-size: 11px;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(154, 92, 170);
+  color: rgb(0, 0, 0);
   transition: 0.5s ease;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
   letter-spacing: 1px;
-  box-shadow: 0 0 10px rgb(42, 201, 103);
+  box-shadow: none;
   border-radius: 20px;
   background-color: #25d366;
   
@@ -196,8 +196,8 @@ html {
 
 .a-button:hover,
 a-button:focus {
-  box-shadow: none;
   color: #fefffe;
+  box-shadow: 0 0 10px rgb(42, 201, 103);
 }
 
 .text-leiamais {
@@ -254,21 +254,21 @@ a-button:focus {
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(235, 233, 236);
-  border: 2px solid rgb(255, 255, 255);
+  color: rgb(154, 92, 170);
+  border: 2px solid #25d366;
   background: #25d366;
   opacity: 0.9;
   animation: slide 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 10px orange;
   border-radius: 30px;
+  box-shadow: none;
 }
 
 .btn-sair-galeria:hover, 
 .btn-left:hover, 
 .btn-right:hover {
-  box-shadow: none;
   color: #fefffe;
+  box-shadow: 0 0 10px #25d366;
 }
 
 .btn-left {
@@ -280,12 +280,11 @@ a-button:focus {
   text-transform: uppercase;
   text-decoration: none;
   color: rgb(154, 92, 170);
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid #25d366;
   background: #25d366;
   opacity: 0.9;
   animation: slide 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 10px orange;
   border-radius: 30px;
 }
 
@@ -297,13 +296,12 @@ a-button:focus {
   text-transform: uppercase;
   text-decoration: none;
   color: rgb(154, 92, 170);
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid #25d366;
   transition: 0.3s ease;
   background: #25d366;
   opacity: 0.9;
   animation: slide 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 10px orange;
   border-radius: 30px;
 }
 
