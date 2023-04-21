@@ -79,3 +79,10 @@ function abrirWhatsapp() {
     msg;
   window.open(url, "_blank").focus();
 }
+
+$(document).ready(function () {
+  $("#btn-voltar").on("click", function () {
+    $(".text-leiamais").toggle("slow");
+  });
+});
+

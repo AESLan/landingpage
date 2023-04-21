@@ -248,7 +248,7 @@ a-button:focus {
 
 /*Botões*/
 
-.btn-sair-galeria {
+.btn-sair-galeria,.btn-voltar{
   display: flexbox;
   padding: 10px 20px;
   font-size: 14px;
@@ -266,7 +266,8 @@ a-button:focus {
 
 .btn-sair-galeria:hover, 
 .btn-left:hover, 
-.btn-right:hover {
+.btn-right:hover,
+.btn-voltar:hover {
   color: #fefffe;
   box-shadow: 0 0 10px #25d366;
 }
