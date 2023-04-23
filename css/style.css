@@ -402,3 +402,21 @@ textarea {
     margin: 0 10%;
   }
 }
+
+/*PÁGINA 2*/
+
+
+.itens {
+  display: flex;
+  justify-content: space-around;
+  color: #25d366;
+  background-color: rgb(154, 92, 170);
+}
+
+.itens a {
+text-decoration: none;
+color: #25d366;
+font-size: 28px;
+padding: 1rem;
+}
+

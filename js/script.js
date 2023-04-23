@@ -86,3 +86,18 @@ $(document).ready(function () {
   });
 });
 
+
+function menuFn(x) {
+  x.classList.toggle("change");
+}
+      
+/*página2 */
+
+$(".drop").mouseover(function() {
+  $(".dropdown").show(300);
+});
+$(".drop").mouseleave(function() {
+  $(".dropdown").hide(300);     
+});
+
+
