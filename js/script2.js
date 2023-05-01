@@ -1,18 +1,9 @@
 /*página2 */
 
-$(document).ready(function () {
-  $(".drop").on("mouseover", function () {
-    $(".dropdown").show(300);
-  });
+var drop = document.getElementsByClassName("drop");
+var dropdown = document.getElementsByClassName("dropdown");
 
+drop.addEventListener("mouseover", function() {
+  drop.classList.add("drop")
   
 });
-
-/*$(".drop").mouseover(function() {
-    $(".dropdown").show(300);
-  });
-  
-  $(".drop").mouseleave(function() {
-    $(".dropdown").hide(300);     
-  });
-  
