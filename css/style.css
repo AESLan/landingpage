@@ -171,9 +171,8 @@ html {
   padding-bottom: 15px;
 }
 
-.image {
-  max-width: auto;
-  max-height: 760px;
+.imagem {
+  max-width: 100%;
 }
 
 .a-button {
@@ -308,6 +307,19 @@ a-button:focus {
 
 /*Formulário Whatsapp*/
 
+.form_titulo {
+  color: #b41dcf;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 42px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form_titulo:hover {
+  color: #25d366;
+}
+
 .formulario {
   display: none;
   position: fixed;
@@ -318,11 +330,12 @@ a-button:focus {
   background: black;
   opacity: 1;
   z-index: 1;
+  font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form-all {
-  margin-top: 10%;
-  font-family: sans-serif;
+  margin-top: 2%;
+  font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
   border: none;
   text-decoration: none;
@@ -343,11 +356,12 @@ a-button:focus {
   margin-bottom: 16px;
   border-radius: 4px;
   font-size: 16px;
+  border-radius: 8px;
+  border: none;
 }
 
-input,
-textarea {
-  padding: 16px;
+.btn-enviar:hover {
+  box-shadow: 0 0 10px;
 }
 
 input,
@@ -356,30 +370,28 @@ textarea {
   margin-bottom: 16px;
   border-radius: 4px;
   font-size: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 /*RESPONSIVIDADE*/
 
-@media (width <=768px) {
-  .image{
-    position:relative;
-    width: 100%;
-    height: 100vh;
-    margin-left: -38%;
-    object-fit: cover;
-  }
+@media (max-width: 768px) {
+
 
   .top-banner__text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: relative;
   }
 
   .top-banner__inner .top-banner__h2{
-    font-size: 90px;
+    font-size: 50px;
   }
 
   .navigation{
